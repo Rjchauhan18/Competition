@@ -26,7 +26,7 @@ def triage_algorithm(selected_symptoms):
 
 
 def main():
-    st.title("COVID-19 Symptom-Based Triage Algorithm")
+    st.title("COVID-19 Symptom-Based Triage")
 
     
     st.subheader("Select Symptoms:")
@@ -41,6 +41,12 @@ def main():
 
             
             st.write(f"Priority Score: {priority_score}")
+            if priority_score > 0 and priority_score < 3:
+                st.write(f"Low Priority")
+            elif priority_score >= 3 and priority_score < 6:
+                st.write(f"Medium Priority")
+            elif priority_score >= 6 and priority_score < 9:
+                st.write(f"High Priority")
 
 if __name__ == "__main__":
     main()
