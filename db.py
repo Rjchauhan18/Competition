@@ -8,7 +8,7 @@ load_dotenv(".env")
 user_name=os.getenv("user_name")
 password=os.getenv("password")
 mydb = mysql.connector.connect(
-    host="LAPTOP-9MG55R15",
+    host="localhost",
     # host="streamlit.cloud",
     port="3306",
     user=user_name,
