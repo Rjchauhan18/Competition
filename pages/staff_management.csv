@@ -1,0 +1,251 @@
+id,name,Hospital name,Contact,Field,Avilible
+1,Sid Benza,GlaxoSmithKline Consumer Healthcare LP,9604190793,doctor,true
+2,Almira Ivanets,"Nationwide Laboratories, LLC",1521211998,doctor,true
+3,Yale Durward,Dr.Reddys Laboratories Limited,6539844639,surgeon,false
+4,Jobie Aronovich,West-ward Pharmaceutical Corp.,4871689731,lab technician,false
+5,Noble Shea,"Cypress Pharmaceutical, Inc.",4112000850,nurse,false
+6,Madelena Smidmoor,"Preferred Pharmaceuticals, Inc.",6888713463,nurse,false
+7,Simone Donaher,REMEDYREPACK INC.,7175683115,surgeon,true
+8,Louella Clayden,SUPERVALU INC.,2558189780,surgeon,false
+9,Rafe Barz,Sandoz Inc,7696567836,surgeon,true
+10,Doyle Ayllett,Kmart Corporation,1013299899,nurse,false
+11,Cathie Cleife,Coty US LLC,5226875085,pharmacist,true
+12,Anna Jorczyk,Keen Compressed Gas Co. Inc.,2866277854,nurse,false
+13,Margareta Andersen,Qualitest Pharmaceuticals,5393871037,doctor,true
+14,Guthrey Broadbear,Rebel Distributors Corp,3434946019,nurse,true
+15,Walther Matthesius,"ALK-Abello, Inc.",5277193789,nurse,false
+16,Bernelle Dubique,REMEDYREPACK INC.,5441994564,surgeon,true
+17,Wallis Crooks,"Zila Therapeutics, Inc.",9011312243,doctor,true
+18,Giana Peaurt,Carilion Materials Management,9765756943,lab technician,false
+19,Karine Varcoe,"Janssen Pharmaceutical, Inc.",3509744618,nurse,false
+20,Cass Delahunty,"Watson Pharma, Inc.",9304791660,nurse,false
+21,Myrta Jerrolt,Endo Pharmaceuticals Inc.,7504147356,surgeon,true
+22,Norine Vasyunichev,Torrent Pharmaceuticals Limited,5822094987,doctor,false
+23,Oralle Macieja,VersaPharm Incorporated,3411737225,surgeon,false
+24,Derril Gulvin,Deliz Pharmaceutical Corp,2316964407,pharmacist,false
+25,Gilberte Conor,"SHISEIDO CO., LTD.",2494335602,surgeon,true
+26,Dinny Stollenbeck,"Nelco Laboratories, Inc.",1466154455,pharmacist,false
+27,Helyn Manktelow,Bryant Ranch Prepack,1545095604,surgeon,false
+28,Fremont Schofield,"Horn's Medical Supply, Inc.",4628180285,nurse,true
+29,Buiron Boshard,Onset Dermatologics LLC,9059300984,pharmacist,false
+30,Redd Wycliffe,GlaxoSmithKline LLC,6231336506,doctor,true
+31,Danny Blew,BioActive Nutritional,1515432269,doctor,true
+32,Kristian Van Der Walt,VersaPharm Incorporated,5647259239,lab technician,false
+33,Darby Simioli,McKesson,8339629745,doctor,true
+34,Germain Sidebotton,"UDL Laboratories, Inc.",2805273372,pharmacist,true
+35,Terrell McArd,ORGANIC & SUSTAINABLE BEAUTY,4064420048,surgeon,false
+36,Clarance De Carlo,Nash-Finch Company (Our Family),7872663176,nurse,false
+37,Marris Malling,Rebel Distributors Corp,5824532701,pharmacist,false
+38,Al Wrought,"Hawthorn Pharmaceuticals, Inc.",3678917640,nurse,true
+39,Warde Kirkhouse,The Clorox Company,6823929176,nurse,true
+40,Timmie Iacoviello,"Terjan Co., Inc. DBA Valley Welding Supply Company",6587114853,doctor,true
+41,Marlie Fendt,WOCKHARDT USA LLC.,3664909436,nurse,false
+42,Munmro Grishaev,"Impax Laboratories, Inc.",5388644734,nurse,false
+43,Gill Kitchenman,"Pack Pharmaceuticals, LLC",1981440224,surgeon,true
+44,Agnese McShirie,Avema Pharma Solutions,2084721939,pharmacist,false
+45,Rici Zapata,REMEDYREPACK INC.,5867080401,lab technician,false
+46,Rhodia Prescot,West-ward Pharmaceutical Corp,7104392647,nurse,true
+47,Shirlee Strudwick,American Sales Company,9498705209,doctor,false
+48,Armando Harsnipe,AvPAK,3738096052,nurse,true
+49,Karita Tott,Manchester Pharmaceuticals,3713803904,lab technician,true
+50,Natty Mathivet,McKesson Packaging Services a business unit of McKesson Corporation,9565257078,nurse,false
+51,Gabriellia Chaperlin,Reckitt Benckiser LLC,6267133144,doctor,false
+52,Ruthann Cossell,Mylan Pharmaceuticals Inc.,1518427559,pharmacist,false
+53,Early Bodley,"ALK-Abello, Inc.",6473301867,doctor,true
+54,Juliann O'Scollain,Pack Pharmaceuticals LLC,5014778222,surgeon,true
+55,Evelyn Kas,Unit Dose Services,8762883126,doctor,true
+56,Monty Janous,Stat Rx USA,1932998916,nurse,true
+57,Adrea Keigher,GlaxoSmithKline Consumer Healthcare LP,8009691140,surgeon,true
+58,Caria Bernolet,Family Dollar Services Inc.,2634490035,surgeon,true
+59,Lin Royden,"PD-Rx Pharmaceuticals, Inc.",5181977418,nurse,false
+60,Alayne Avraam,Rebel Distributors Corp,5366680554,lab technician,true
+61,Mord Melledy,Kmart Corporation,6212782965,pharmacist,true
+62,Nolana Muglestone,REMEDYREPACK INC.,3366439379,pharmacist,false
+63,Sandor Canniffe,"DAVA Pharmaceuticals, Inc.",9048891312,surgeon,false
+64,Ariel Boggish,"Nelco Laboratories, Inc.",2382118237,doctor,true
+65,Fee Siddele,"Natures Sunshine Products, Inc.",4589602587,pharmacist,true
+66,Shaughn Flowith,"Teva Parenteral Medicines, Inc.",4327271095,pharmacist,true
+67,Brent McLemon,WALGREEN CO.,9677845724,pharmacist,true
+68,Sayre Commuzzo,Neutrogena Corporation,6332786948,surgeon,false
+69,Jackie Guyot,"Aphena Pharma Solutions - Tennessee, LLC",7133096292,doctor,true
+70,Zaneta Spratley,Uriel Pharmacy Inc.,2624127537,surgeon,false
+71,Dolf Burgh,Cardinal Health,3085432576,nurse,true
+72,Staffard Durante,Cardinal Health,1657235865,lab technician,false
+73,Jerad Qualtrough,"Jiangxi Sencen Hygienic Products Co., Ltd.",1083284711,nurse,true
+74,Siward Dufoure,"SHISEIDO CO., LTD.",7408591282,pharmacist,true
+75,Rebeka Proback,Ferring Pharmaceuticals Inc.,9474812446,surgeon,true
+76,Wadsworth Hugland,REMEDYREPACK INC.,3875665953,pharmacist,true
+77,Dorthy Stut,Parfums Christian Dior,2414941641,nurse,true
+78,Tamas Duggan,Marco Pharma International LLC.,1347382215,nurse,false
+79,Dean Shambrook,CleanWell,1367320129,doctor,true
+80,Gard Flahive,Procter & Gamble Manufacturing Company,4386349153,pharmacist,false
+81,Wyatan Wraighte,"Theravance, Inc.",1131202523,nurse,false
+82,Dru Poad,Apotex Corp.,5906266798,surgeon,false
+83,Eldredge Yesenin,American Health Packaging,1611976107,doctor,true
+84,Padriac Bonavia,"Mechanical Servants, Inc.",7007096386,nurse,false
+85,Bryn Elsay,Contract Pharmacy Services-PA,4849083913,nurse,false
+86,Grant Attridge,Kmart Corporation,5288254361,surgeon,true
+87,Genevieve Saggs,"Sungwon Pharmaceutical Co., Ltd.",3895152816,surgeon,false
+88,Dale O'Hara,"Colgate Oral Pharmaceuticals, Inc.",4921641328,nurse,true
+89,Hal Orrobin,McKesson Contract Packaging,3006503626,nurse,true
+90,Petra Spraggon,Major Pharmaceuticals,6317086353,nurse,false
+91,Kissiah Canceller,"Ventura Corporation (San Juan, P.R)",3886841864,lab technician,true
+92,Jewell Ghirigori,"Liddell Laboratories, Inc.",2185257903,doctor,false
+93,Heda Whorlow,Cardinal Health,1265278255,pharmacist,false
+94,Guinna Loachhead,"Actavis Pharma, Inc.",9433770502,lab technician,false
+95,Royce Ewbanks,"Nelco Laboratories, Inc.",8729308797,doctor,false
+96,Andeee Pollicote,Rouses Point Pharm,8359544764,nurse,true
+97,Fran Ruppelin,Merck Sharp & Dohme Corp.,5683961410,doctor,false
+98,Goddard Medd,Meda Pharmaceuticals Inc.,9878903675,nurse,true
+99,Lucien Gaw,Provision Medical,5176225519,surgeon,false
+100,Leonerd Balshaw,Apotheca Company,3931316330,lab technician,true
+101,Stan Muat,HOMEOLAB USA INC.,9513857738,nurse,true
+102,Nikoletta Escala,Ucyclyd Pharma Inc.,6068076802,pharmacist,false
+103,Ilise Rowly,"BioComp Pharma, Inc.",8345954595,lab technician,true
+104,Jacquenette Taggett,REMEDYREPACK INC.,4468064585,doctor,false
+105,Blakelee Braddock,LAURA GELLER MAKE UP INC.,1682316957,nurse,false
+106,Kate Wilderspoon,Sanofi-Aventis U.S. LLC,1521308260,nurse,true
+107,Cherilyn Jimpson,Feelgood Health,6805815020,doctor,true
+108,Doro Ramshay,"Ventura Corporation (San Juan, P.R)",6034933038,pharmacist,false
+109,Jordain Oppery,CLINIQUE LABORATORIES INC,6736521202,lab technician,true
+110,Tamarra Morford,Cardinal Health,7738382570,doctor,false
+111,Udell Fry,DSHealthcare,2337722497,doctor,false
+112,Denney McCleod,Stiefel Laboratories Inc,5537150325,surgeon,true
+113,Codie Alban,"Capellon Pharmaceuticals, LLC",5589569079,lab technician,false
+114,Kerwinn Cowhig,"Antigen Laboratories, Inc.",3313340914,lab technician,true
+115,Corinna Hazell,GlaxoSmithKline LLC,4633855392,lab technician,false
+116,Susanne Dearan,"Victory Pharma, Inc.",6197957444,doctor,true
+117,Nollie Dunkerley,Cardinal Health,5738095248,lab technician,true
+118,Sofia Espinay,Similasan Corporation,4253659679,nurse,true
+119,Shalna Gates,"Golden State Medical Supply, Inc.",1593637433,lab technician,true
+120,Nicky Hucklesby,Bryant Ranch Rrepack,1722912376,pharmacist,false
+121,Lyndell Turmel,Sandoz Inc,1673376659,lab technician,false
+122,Waylen Lamperti,"AAA Pharmaceutical, Inc.",4775965670,nurse,false
+123,Wallie Mc Comb,"ALK-Abello, Inc.",4924442472,doctor,false
+124,Genovera Isenor,CVS Pharmacy,8895188312,doctor,true
+125,Cassie Staden,"Nelco Laboratories, Inc.",8843566067,doctor,false
+126,Colby Ottey,"Energique, Inc.",2979979632,pharmacist,false
+127,Danielle Wheatley,"SJ Creations, Inc.",5116555663,pharmacist,true
+128,Dorothy Menichino,REMEDYREPACK INC.,3369795213,lab technician,true
+129,Orelia Whittam,Tri-Coastal Design Company Inc.,7875265490,surgeon,false
+130,Ailbert Hylands,REMEDYREPACK INC.,3892148639,doctor,true
+131,Colet Kintzel,Dr Reddys Laboratories Inc,5188630658,pharmacist,true
+132,Tracie Downes,Qualitest Pharmaceuticals,4921960482,doctor,false
+133,Conant Brucker,Gerimedix Incorporated,9711190575,surgeon,false
+134,Nadya Paolone,GlaxoSmithKline Consumer Healthcare LP,9192879803,nurse,false
+135,Mae Tomaszkiewicz,"Hawthorn Pharmaceuticals, Inc.",9312697922,pharmacist,false
+136,Cedric Metschke,"Paddock Laboratories, LLC",1452496928,nurse,true
+137,Roy Piris,HPI Health Products Inc.,9565560944,doctor,true
+138,Piggy Yoell,Pharmaceutics Corporation,3867027581,pharmacist,false
+139,Dorelia Harflete,Mylan Institutional Inc.,1483152319,surgeon,true
+140,Kelli Woodcroft,Genuine First Aid LLC,4202229956,lab technician,true
+141,Ferdinande Hughlin,AbbVie Inc.,7451205196,pharmacist,false
+142,Marne Sinkin,Anchor Supply Company,5516311748,doctor,true
+143,Massimo Looker,"Physicians Total Care, Inc.",7739076522,nurse,false
+144,Judi Karolczyk,"UCB, Inc.",2308498638,lab technician,false
+145,Ulises Gallico,ScieGen Pharmaceuticals Inc,1431557125,doctor,true
+146,Floris Hughesdon,Bare Escentuals Beauty Inc.,2052654355,nurse,true
+147,Doralyn Huxter,Aidarex Pharmaceuticals LLC,5156875724,lab technician,true
+148,Issie Hopkins,"GW Laboratories, Inc.",6183322988,doctor,true
+149,Elbertine Furlonge,REMEDYREPACK INC.,1527603607,lab technician,false
+150,Winifred O'Callaghan,"Aplicare, Inc.",2781883730,surgeon,false
+151,Christiano Popplestone,Uriel Pharmacy Inc.,7786514437,lab technician,false
+152,Calida Sprull,"Physicians Total Care, Inc.",5856026485,pharmacist,true
+153,Daryn Kaman,The General Hospital Corporation,3935486337,surgeon,false
+154,Morganne Izakov,Unit Dose Services,9415530180,nurse,false
+155,Derry Lorrain,Harvest Trading Group Inc.,6619816759,pharmacist,true
+156,Blondy Gallymore,Cellinbio Co Ltd,6929018378,surgeon,false
+157,Ezmeralda Bartozzi,"ALK-Abello, Inc.",4364172107,nurse,false
+158,Jere Perotti,CVS Pharmacy,2088457202,lab technician,true
+159,Keane Caustick,"MMA Pain Relief Gel, LLC",8099785860,doctor,true
+160,Carlita Seamons,"Native Remedies, LLC",9132134787,pharmacist,false
+161,Kearney Quinnette,Mylan Institutional LLC,8342983809,pharmacist,true
+162,Carolin Sieb,"Brioschi Pharmaceuticals International, LLC",6388721331,doctor,false
+163,Robenia Leigh,"Aphena Pharma Solutions - Tennessee, LLC",7265372457,doctor,false
+164,Magdalen Arnout,LABORATOIRES M&L,5386663650,doctor,false
+165,Dare Cettell,"Watson Laboratories, Inc.",6981205670,doctor,true
+166,Travus Fergyson,"GANZ U.S.A., LLC",4041023947,surgeon,false
+167,Doria Mummery,B. Braun Medical Inc.,5234963777,lab technician,true
+168,Obed Youngs,Bryant Ranch Prepack,5652959317,pharmacist,false
+169,Norbie Linacre,"NCS HealthCare of KY, Inc dba Vangard Labs",1848911678,doctor,true
+170,Sher Barriball,"Nelco Laboratories, Inc.",8945946935,pharmacist,true
+171,Kimberli Jedrzejczyk,"Physicians Total Care, Inc.",1616197755,pharmacist,false
+172,Thorndike Hardway,Sandoz Inc,1448553037,surgeon,true
+173,Ardella Whisby,Bryant Ranch Prepack,1981047540,nurse,false
+174,Latashia De Filippo,Qualitest Pharmaceuticals,5658637031,nurse,true
+175,Stacey Lathbury,Bryant Ranch Prepack,7303937659,pharmacist,false
+176,Janie Hadwen,Major Pharmaceuticals,6027990672,nurse,false
+177,Frasco Renak,"Dispensing Solutions, Inc.",8814180914,pharmacist,false
+178,Konstance Spaven,Hikma Pharmaceutical,5369656966,lab technician,true
+179,Northrup Pilgram,Major Pharmaceuticals,2786378363,lab technician,true
+180,Tucker Keppel,"Newton Laboratories, Inc.",5096114562,pharmacist,true
+181,El Larchiere,McKesson,7411009588,lab technician,false
+182,Laraine Kestin,"Bayer HealthCare LLC, Consumer Care",2021533370,surgeon,true
+183,Tate Clare,Rebel Distributors Corp,3755066002,lab technician,false
+184,Ham Cocks,"MSD Consumer Care, Inc.",8651002067,surgeon,false
+185,Perceval Toogood,Rebel Distributors Corp,9229488503,doctor,false
+186,Cullin Shaxby,"Genentech, Inc.",4289919636,pharmacist,true
+187,Lief Cammiemile,"Deseret Biologicals, Inc.",7861749589,nurse,true
+188,Cosmo Le Friec,REMEDYREPACK INC.,8111992746,nurse,true
+189,Josiah Abyss,Carilion Materials Management,1308332145,surgeon,false
+190,Donnajean Ashbe,Hyland's,2917272039,doctor,true
+191,Natassia Gateley,"Sato Pharmaceutical Co., Ltd.",7793663491,nurse,true
+192,Kimball Closs,HOMEOLAB USA INC.,2408043721,lab technician,true
+193,Xymenes Astlatt,STAT RX USA LLC,3608155974,pharmacist,false
+194,Ignatius Raggles,"Aphena Pharma Solutions - Tennessee, LLC",9845030621,pharmacist,false
+195,Corny Blatherwick,"Carver Korea Co.,Ltd",5873889246,nurse,false
+196,Kareem Peppard,"ALK-Abello, Inc.",9473704956,nurse,true
+197,Tildy Gullivan,"Chattem, Inc.",3505730909,doctor,false
+198,Bria Cullimore,Procter & Gamble Manufacturing Company,1079979465,lab technician,false
+199,Emelen Dairton,Uriel Pharmacy Inc.,7268714985,lab technician,true
+200,Scotti Sarle,APOLLO HEALTH AND BEAUTY CARE,6595102585,nurse,false
+201,Alexandrina Keir,"Aire-Master of America, Inc.",9913243649,lab technician,false
+202,Rosemary Phaup,REMEDYREPACK INC.,1338981189,doctor,false
+203,Hannis Davio,King Bio Inc.,4305065984,pharmacist,false
+204,Nelia Hallt,Wockhardt Limited,6862389052,pharmacist,false
+205,Carmelita Rivers,Uriel Pharmacy Inc.,1121597432,surgeon,false
+206,Tallie Macci,Haw Par Healthcare Ltd.,9937320963,lab technician,false
+207,Tiffany Puller,Teva Pharmaceuticals USA Inc,4848721412,nurse,false
+208,Lorine Footer,"Rugby Laboratories, Inc.",3053891258,pharmacist,false
+209,Melania Perazzo,"Hospira, Inc.",2114866583,lab technician,false
+210,Lorenza Grece,"Physicians Care Alliance, LLC DBA PCA SKIN",3203780017,surgeon,true
+211,Ricki Wackett,DSHealthcare,5761493767,surgeon,false
+212,Caressa Adne,"Elizabeth Arden, Inc",5829451284,doctor,false
+213,Kalle Pyser,"Allure Labs, Inc.",9777210688,lab technician,true
+214,Jecho Gledstane,"ALK-Abello, Inc.",6135510191,surgeon,false
+215,Sadye Siward,CVS Pharmacy,4247554125,doctor,false
+216,Ricki Ninnotti,Freds Inc,1082295641,surgeon,false
+217,Tallou Stoate,Capricorn Pharma Inc.,1214153222,lab technician,false
+218,Rudd Dunseath,Apotheca Company,9237161217,nurse,true
+219,Dulcea Jacobsen,Aidarex Pharmaceuticals LLC,8783395162,pharmacist,false
+220,Kirstin Favey,American Health Packaging,1858275104,lab technician,true
+221,Almire Northey,Chain Drug Constortium,7211748077,nurse,true
+222,Astrid Parren,Arbor Pharmaceuticals Inc.,3447780318,lab technician,false
+223,Emelda Northam,"ZION SYNTHETIC FIBER CO., LTD.",9546166405,doctor,true
+224,Sibel Aneley,"Preferred Pharmaceuticals, Inc",8005139473,doctor,false
+225,Pancho Aleksandrov,"Merle Norman Cosmetics, Inc",6096136998,nurse,false
+226,Erie Rimour,Mylan Pharmaceuticals Inc.,5011028214,pharmacist,true
+227,Felicdad Curreen,McKesson,1233726415,nurse,true
+228,Mycah Grimbaldeston,Sun Pharmaceutical Industries Limited,4814067825,lab technician,false
+229,Nesta Dudman,Wockhardt USA LLC.,5174250424,lab technician,false
+230,Giorgio Moyser,Uriel Pharmacy Inc.,3233749295,surgeon,true
+231,Louisa Lathleiffure,"ALK-Abello, Inc.",8888720829,nurse,false
+232,Allyson McPhaden,"Gurwitch Products, LLC",3129849689,surgeon,true
+233,Olly Doubleday,Reckitt Benckiser LLC,3891750338,lab technician,true
+234,Jerrie Iddiens,DRNATURALHEALING,9638960791,nurse,true
+235,Hazlett Braithwait,Bryant Ranch Prepack,2884083465,surgeon,false
+236,Pen Pendlenton,"Roberts Oxygen Company, Inc.",5808092532,surgeon,true
+237,Ellyn Prendeguest,International Cosmetic Limited,7275180110,doctor,false
+238,Phebe Wyley,ImClone LLC,7519531195,doctor,false
+239,Axe Loughran,Wal-Mart Stores Inc,2044180802,pharmacist,false
+240,Jaimie Middleweek,"Fresenius Kabi USA, LLC",4538748982,doctor,true
+241,Cob Gurton,REMEDYREPACK INC.,1044954788,surgeon,true
+242,Jordon Glasscott,Citron Pharma LLC,2481614048,lab technician,true
+243,Jud Braban,Wal-Mart Stores Inc,3694292997,doctor,true
+244,Austine Baynes,King Bio Inc.,4337858276,lab technician,false
+245,Kelley Jimpson,"General Injectables & Vaccines, Inc",8637695340,lab technician,false
+246,Esma Prevett,"Nelco Laboratories, Inc.",8896332972,lab technician,false
+247,Sherwynd Couper,Rebel Distributors Corp,6167746552,surgeon,true
+248,Dael Damiral,"Concept Laboratories, Inc.",8488009148,nurse,true
+249,Hubey Jenkins,Mylan Pharmaceuticals Inc.,3014060811,lab technician,false
+250,Shalne Nenci,SHISEIDO AMERICAS CORPORATION,8215460357,pharmacist,false

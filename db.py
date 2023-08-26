@@ -5,8 +5,8 @@ import pandas as pd
 from dotenv import load_dotenv
 
 load_dotenv(".env")
-user_name=os.get("user_name")
-password=os.get("password")
+user_name=os.getenv("user_name")
+password=os.getenv("password")
 mydb = mysql.connector.connect(
 #   host="localhost",
     host="192.168.1.100",
