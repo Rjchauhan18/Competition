@@ -8,8 +8,8 @@ load_dotenv(".env")
 user_name=os.getenv("user_name")
 password=os.getenv("password")
 mydb = mysql.connector.connect(
-#   host="localhost",
-    host="streamlit.cloud",
+    host="localhost",
+    # host="streamlit.cloud",
     port="3306",
     user=user_name,
     password=password,
