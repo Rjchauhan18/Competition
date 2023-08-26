@@ -3,6 +3,7 @@ import db
 import pandas as pd
 # import plotly
 import plotly.graph_objects as go
+import plotly.express as px
 import altair as alt
 
 Medicine=300
