@@ -4,6 +4,7 @@ import pandas as pd
 # import plotly
 import plotly.graph_objects as go
 import altair as alt
+import plotly.express as px
 
 Medicine=300
 beds=50
@@ -26,16 +27,43 @@ def app():
     data=pd.read_csv("Latest Covid-19 India Status.csv")
     data.rename(columns={"State/UTs": "State"},inplace=True)
     st.table(data)
+    data = pd.read_csv("Latest Covid-19 India Status.csv")
+    data.rename(columns={"State/UTs": "State"}, inplace=True)
+    st.title("India Covid-19 Data")
+    st.write(data)
+    fig = px.line(data, x="State", y="Death Ratio", title="Death Ratio by State")
+    fig.update_layout(title = { 'font' : { 'size' : 25}})
+    fig.update_traces(line=dict(color='red'))
+    fig.update_layout(height = 500, width = 1000)
+    fig.layout.update( xaxis_rangeslider_visible=True, xaxis_rangeslider_thickness = 0.05)
+    st.plotly_chart(fig, use_container_width=False, use_container_height=False)
     
-    def plot_raw_data():
+    # data_dict = data.to_dict()
+    # print(data_dict)
+    # st.plotly_chart(d)
+    def Graph_of_Discharge_Ratio():
         fig = go.Figure()
-        fig.add_trace(go.Scatter( x=data['State'], y=data['Death Ratio'], name="States"))
-        fig.add_trace(go.Scatter(x=data['State'], y=data['Death Ratio'], name="Discharge Ratio"))
+        fig.add_trace(go.Scatter( x=data['State'], y=data['Discharge Ratio'], name="States"))
+        fig.add_trace(go.Scatter(x=data['State'], y=data['Discharge Ratio'], name="Discharge Ratio"))
+        fig.update_layout(title = { 'font' : { 'size' : 25}})
         fig.layout.update(
-            title_text='Covid-19 State data', xaxis_rangeslider_visible=True)
-     
-        st.plotly_chart(fig , use_container_width=True)
-    plot_raw_data()
+            title_text='Discharge Ratio by State', xaxis_rangeslider_visible=True, xaxis_rangeslider_thickness = 0.05)
+        fig.update_layout(height = 500, width = 1000)
+        fig.update_traces(line=dict(color='red'))
+        st.plotly_chart(fig , use_container_width=False, use_container_height=False)
+    Graph_of_Discharge_Ratio()
+    
+    def Graph_of_Total_Cases():
+        fig = go.Figure()
+        fig.add_trace(go.Scatter( x=data['State'], y=data['Total Cases'], name="States"))
+        fig.add_trace(go.Scatter(x=data['State'], y=data['Total Cases'], name="Total Cases"))
+        fig.layout.update(
+            title_text='Total cases by State', xaxis_rangeslider_visible=True, xaxis_rangeslider_thickness = 0.05)
+        fig.update_layout(title = { 'font' : { 'size' : 25}})
+        fig.update_layout(height = 500, width = 1000)    
+        fig.update_traces(line=dict(color='red'))
+        st.plotly_chart(fig , use_container_width=False, use_container_height=False)
+    Graph_of_Total_Cases()
     
 # app() 
 
