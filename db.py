@@ -19,7 +19,9 @@ mycursor = mydb.cursor(dictionary=True)
 
 # mycursor.execute("CREATE TABLE users (full_name VARCHAR(255), email VARCHAR(150),age VARCHAR(3),phone VARCHAR(10),password varchar(8))")
 
-# fetch all the user 
+"""
+fetching all the user 
+"""
 def fetch_users():
     mycursor.execute("SELECT * FROM users")
 
@@ -27,6 +29,10 @@ def fetch_users():
     print(rows[0])
 # fetch_users()
 # fetch the one single user
+
+"""
+Fetching the detail Of existing particular users detail
+"""
 def fetch_user(name,Email_id,password):
     try:
         sql = "SELECT * FROM users WHERE email = %s "
@@ -48,14 +54,18 @@ def fetch_user(name,Email_id,password):
     if name == nm :
         
         if password== pw:
-            return True
+            return user_detail,True
         else:
             return False
     else:
-        return "User name Incorrect"
+        return "Incorrect Name"
 # s=fetch_user("Rahul Chauhan","rjchauhan@5000000gmail.com")
 # print(s)
 
+
+""" 
+Creating User with mysql
+"""
 def create_user(full_name,email,age,phone,password):
     try:
 

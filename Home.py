@@ -1,7 +1,6 @@
 import streamlit as st 
 import db
 import pandas as pd
-# import plotly
 import plotly.graph_objects as go
 import altair as alt
 import plotly.express as px
@@ -10,10 +9,6 @@ Medicine=300
 beds=50
 
 st.set_page_config(page_title="COVIED-19 MANAGEMENT SYSTEM" , page_icon=":bar_chart:", layout="wide")
-
-
-
-
 
 
 def app():
