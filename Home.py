@@ -23,8 +23,6 @@ def app():
     data.rename(columns={"State/UTs": "State"},inplace=True)
     st.title("India Covid-19 Data")
     st.table(data)
-    data = pd.read_csv("Latest Covid-19 India Status.csv")
-    data.rename(columns={"State/UTs": "State"}, inplace=True)
     # st.write(data)
     fig = px.line(data, x="State", y="Death Ratio", title="Death Ratio by State")
     fig.update_layout(title = { 'font' : { 'size' : 25}})
@@ -93,7 +91,7 @@ if st.session_state.get("loggedIn_user") == False or st.session_state.get("logge
     
         if st.button('Login'):
             try:
-                loggedIn_user=db.fetch_user(Full_name, email,password)
+                detail,loggedIn_user=db.fetch_user(Full_name, email,password)
             except:
                 pass
 

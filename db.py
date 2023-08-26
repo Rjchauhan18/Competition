@@ -1,4 +1,4 @@
-import mysql.connector , config
+import mysql.connector , secret
 import mysql
 import datetime as dt
 import pandas as pd
@@ -6,8 +6,8 @@ import pandas as pd
 
 mydb = mysql.connector.connect(
   host="localhost",
-  user=config.user_name,
-  password=config.password,
+  user=secret.user_name,
+  password=secret.password,
   database="competition"
 )
 
@@ -59,8 +59,8 @@ def fetch_user(name,Email_id,password):
             return False
     else:
         return "Incorrect Name"
-# s=fetch_user("Rahul Chauhan","rjchauhan@5000000gmail.com")
-# print(s)
+s=fetch_user("Jagdish Chauhan","jn@gmail.com","Jn@1971")
+print(s)
 
 
 """ 
