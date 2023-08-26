@@ -58,7 +58,7 @@ mycursor = mydb.cursor(dictionary=True)
 
 
 
-# mycursor.execute("CREATE TABLE users (full_name VARCHAR(255), email VARCHAR(150),age VARCHAR(3),phone VARCHAR(10))")
+# mycursor.execute("CREATE TABLE users (full_name VARCHAR(255), email VARCHAR(150),age VARCHAR(3),phone VARCHAR(10),password varchar(8))")
 
 # fetch all the user 
 def fetch_users():
@@ -68,7 +68,7 @@ def fetch_users():
     print(rows[0])
 # fetch_users()
 # fetch the one single user
-def fetch_user(name,Email_id):
+def fetch_user(name,Email_id,password):
     try:
         sql = "SELECT * FROM users WHERE email = %s "
         detail = (Email_id,)
@@ -84,19 +84,24 @@ def fetch_user(name,Email_id):
 
 
     nm=user_detail[0]["full_name"]
+    pw=user_detail[0]["password"]
  
-    if name == nm:
-        return True
+    if name == nm :
+        
+        if password== pw:
+            return True
+        else:
+            return False
     else:
-        return False
-s=fetch_user("Rahul Chauhan","rjchauhan@5000000gmail.com")
-print(s)
+        return "User name Incorrect"
+# s=fetch_user("Rahul Chauhan","rjchauhan@5000000gmail.com")
+# print(s)
 
-def create_user(full_name,email,age,phone):
+def create_user(full_name,email,age,phone,password):
     try:
 
-        sql = " INSERT INTO users(full_name,email,age,phone) VALUES(%s,%s,%s,%s)"
-        value=(full_name,email,age,phone)
+        sql = " INSERT INTO users(full_name,email,age,phone,password) VALUES(%s,%s,%s,%s,%s)"
+        value=(full_name,email,age,phone,password)
         mycursor.execute(sql,value)
         mydb.commit()
         return True
