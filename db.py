@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 load_dotenv(".env")
 user_name=os.getenv("user_name")
 password=os.getenv("password")
+# try :
 mydb = mysql.connector.connect(
     host="127.0.0.1",
     # host="streamlit.cloud",
@@ -15,7 +16,9 @@ mydb = mysql.connector.connect(
     password=password,
     database="competition"
 )
-
+# except Exception as e:
+mydb.config(user=user_name)
+mydb.reconnect()
 # print(mydb)
 
 mycursor = mydb.cursor(dictionary=True)
