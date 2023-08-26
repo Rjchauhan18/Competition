@@ -26,11 +26,11 @@ def app():
     st.write("---")
     data=pd.read_csv("Latest Covid-19 India Status.csv")
     data.rename(columns={"State/UTs": "State"},inplace=True)
+    st.title("India Covid-19 Data")
     st.table(data)
     data = pd.read_csv("Latest Covid-19 India Status.csv")
     data.rename(columns={"State/UTs": "State"}, inplace=True)
-    st.title("India Covid-19 Data")
-    st.write(data)
+    # st.write(data)
     fig = px.line(data, x="State", y="Death Ratio", title="Death Ratio by State")
     fig.update_layout(title = { 'font' : { 'size' : 25}})
     fig.update_traces(line=dict(color='red'))
@@ -73,16 +73,24 @@ def app():
 
 loggedIn_user=None
 
-def signal():
-    return loggedIn_user
+# def signal():
+#     return loggedIn_user
 
 if 'loggedIn_user' not in st.session_state:
     st.session_state.loggedIn_user=loggedIn_user
 
 
-def login():
-    
+
         
+if st.session_state.get("loggedIn_user") == True:
+    app()
+
+if st.session_state.get("loggedIn_user") == False or st.session_state.get("loggedIn_user") == None:
+    st.title("COVID-19 MANAGEMENT SYSTEM")
+    
+    choice = st.selectbox('Login/SignUp',['Login', 'SignUp'])
+    if choice == 'Login':
+            
         Full_name= st.text_input( 'Full_name ')
         email= st.text_input('Email id')
         password= st.text_input('Enter Your Password',type="password")
@@ -110,15 +118,6 @@ def login():
                 st.warning("Log In failed")
        
 
-if st.session_state.get("loggedIn_user") == True:
-    app()
-
-if st.session_state.get("loggedIn_user") == False or st.session_state.get("loggedIn_user") == None:
-    st.title("COVID-19 MANAGEMENT SYSTEM")
-    
-    choice = st.selectbox('Login/SignUp',['Login', 'SignUp'])
-    if choice == 'Login':
-            login()
 
     else:
         Full_name= st.text_input('Enter Your Full Name')
