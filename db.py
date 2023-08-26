@@ -8,8 +8,8 @@ load_dotenv(".env")
 user_name=os.getenv("user_name")
 password=os.getenv("password")
 mydb = mysql.connector.connect(
-  host="localhost",
-    # host="192.168.1.100",
+#   host="localhost",
+    host="192.168.1.100",
     port="3306",
     user=user_name,
     password=password,
