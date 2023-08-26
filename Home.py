@@ -19,7 +19,9 @@ def app():
     
     st.title("COVID-19 MANAGEMENT SYSTEM")
     st.write("---")
-    data=pd.read_csv("Latest Covid-19 India Status.csv")
+    # data=pd.read_csv("Latest Covid-19 India Status.csv")
+    data=pd.read_csv("https://raw.githubusercontent.com/Rjchauhan18/Competition/main/Latest%20Covid-19%20India%20Status.csv")
+
     data.rename(columns={"State/UTs": "State"},inplace=True)
     st.title("India Covid-19 Data")
     st.table(data)
