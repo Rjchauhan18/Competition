@@ -5,7 +5,7 @@ import pandas as pd
 def medicine():
     st.title("MEDICINE STOCK MANAGEMENT ")
 
-    hospitals_data=pd.read_csv("pages\MOCK_DATA.csv")
+    hospitals_data=pd.read_csv("https://raw.githubusercontent.com/Rjchauhan18/Competition/main/pages/MOCK_DATA.csv")
 
     selected_hospital = st.selectbox("Available Hospital",hospitals_data["Hospital Name"])
     row = hospitals_data[hospitals_data["Hospital Name"] == selected_hospital]
