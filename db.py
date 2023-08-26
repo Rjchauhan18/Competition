@@ -1,15 +1,18 @@
-import mysql.connector , secret
-import mysql
+import os
+import mysql.connector 
 import datetime as dt
 import pandas as pd
+from dotenv import load_dotenv
 
-
+load_dotenv(".env")
+user_name=os.get("user_name")
+password=os.get("password")
 mydb = mysql.connector.connect(
 #   host="localhost",
     host="192.168.1.100",
 
-    user=secret.user_name,
-    password=secret.password,
+    user=user_name,
+    password=password,
     database="competition"
 )
 
