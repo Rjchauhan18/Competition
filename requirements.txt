@@ -1,0 +1,6 @@
+streamlit ==1.26.0
+pandas ==2.0.3# import plotly
+plotly ==5.16.1
+altair ==5.0.1
+# import plotly.express as px
+mysql ==0.0.3
