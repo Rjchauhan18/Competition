@@ -5,10 +5,12 @@ import pandas as pd
 
 
 mydb = mysql.connector.connect(
-  host="localhost",
-  user=secret.user_name,
-  password=secret.password,
-  database="competition"
+#   host="localhost",
+    host="192.168.1.100",
+
+    user=secret.user_name,
+    password=secret.password,
+    database="competition"
 )
 
 # print(mydb)
