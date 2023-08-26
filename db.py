@@ -9,8 +9,8 @@ user_name=os.getenv("user_name")
 password=os.getenv("password")
 
 mydb = mysql.connector.connect(
-    host="127.0.0.1",
-    # host="streamlit.cloud",
+    # host="127.0.0.1",
+    host="localhost",
     port="3306",
     user=user_name,
     password=password,
@@ -19,10 +19,54 @@ mydb = mysql.connector.connect(
 # print(mydb)
 
 mycursor = mydb.cursor(dictionary=True)
+# import csv
 
+# def import_csv_data(filename):
+#     with open(filename, "r") as csvfile:
+#         reader = csv.DictReader(csvfile)
+#         # r=parse_csv_to_json(reader)
+#         # st.write(r[0]) 
+#         staff_list = []
+#         for row in reader:
+#             staff_list.append((row["id"], row["name"],row["Hospital name"], row["Contact"], row["Field"], row["Avilible"]))
+#     return staff_list
 
+# s=import_csv_data('pages\staff_management.csv')
+# print(s)
 
-# mycursor.execute("CREATE TABLE users (full_name VARCHAR(255), email VARCHAR(150),age VARCHAR(3),phone VARCHAR(10),password varchar(8))")
+# mycursor.execute("CREATE TABLE staff_manage (id VARCHAR(25), name VARCHAR(150),Hospital_name VARCHAR(300),Contact VARCHAR(10),Field varchar(80),Availible varchar(10))")
+
+def ins(id,name,Hospital_name,Contact,Field,Availible):
+    try:
+
+            sql = " INSERT INTO staff_manage(id,name,Hospital_name,Contact,Field,Availible) VALUES(%s,%s,%s,%s,%s,%s)"
+            value=(id,name,Hospital_name,Contact,Field,Availible)
+            mycursor.execute(sql,value)
+            mydb.commit()
+            return True
+    except Exception as e:
+                return e
+# print(s[0][0])
+# for l in s:
+#         print(ins(l[0],l[1],l[2],l[3],l[4],l[5]))
+     
+     
+def fetchuing_Staff(Hospital_name):
+    try:
+        sql = "SELECT * FROM staff_manage WHERE Hospital_name = %s "
+        detail = (Hospital_name,)
+        
+
+        mycursor.execute(sql, detail)
+        user_detail = mycursor.fetchall()
+        return user_detail
+
+    except Exception as e:
+         pass
+        # print(e)
+        # return "Invalid Patient detail"
+
+# fetchuing_Staff("Nationwide Laboratories, LLC")
 
 """
 fetching all the user 
