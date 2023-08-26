@@ -1,50 +1,9 @@
 import mysql.connector , config
 import mysql
-import yfinance as yf
 import datetime as dt
 import pandas as pd
-# import jwt
-# pyload_data= {
-#      "sub": "4242",
-#      "name": "Rahul Chauhan",
-#      "nickname": "Rjchauhan"
-# }
 
 
-# my_secret = 'my_super_secret'
-# token= jwt.encode(
-#     payload=pyload_data,
-#     key=my_secret
-# )
-
-# # print(token)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import requests module
-# # set username and password
-# s.auth = ('user', 'pass')
- 
-# # update headers
-# s.headers.update({'x-test': 'true'})
- 
-# # both 'x-test' and 'x-test2' are sent
-# s.get('https://httpbin.org / headers', headers ={'x-test2': 'true'})
- 
-# # print object
-# print(s)
 mydb = mysql.connector.connect(
   host="localhost",
   user=config.user_name,
