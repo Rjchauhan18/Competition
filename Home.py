@@ -65,7 +65,7 @@ def app():
 
 
 
-conn = st.experimental_connection('mysql', type='sql')
+# conn = st.experimental_connection('mysql', type='sql')
 
 loggedIn_user=None
 

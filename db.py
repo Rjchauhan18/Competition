@@ -4,13 +4,38 @@ import datetime as dt
 import pandas as pd
 from dotenv import load_dotenv
 
+
+
+# from sqlalchemy import create_engine
+
+# # DEFINE THE DATABASE CREDENTIALS
+# user = os.getenv('user_name')
+# password =  os.getenv('password')
+# host =  os.getenv('host')
+# port = 3306
+# database = 'competition'
+
+# # PYTHON FUNCTION TO CONNECT TO THE MYSQL DATABASE AND
+# # RETURN THE SQLACHEMY ENGINE OBJECT
+# def get_connection():
+#     url="mysql+pymysql://{0}:{1}@{2}:{3}/{4}".format(user, password, host, port, database)
+# 	create_engine(url=url)
+#     return url
+
+
+
+
+
+
+
+
 load_dotenv(".env")
 user_name=os.getenv("user_name")
 password=os.getenv("password")
 
 mydb = mysql.connector.connect(
-    # host="127.0.0.1",
-    host="localhost",
+    host="127.0.0.1",
+    # host="localhost",
     port="3306",
     user=user_name,
     password=password,
