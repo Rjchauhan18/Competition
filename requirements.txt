@@ -1,8 +1,8 @@
 streamlit 
-pandas == 2.0.3
-plotly ==5.16.1
-altair ==5.0.1
-mysql-connector ==2.2.9
-python-dotenv== 0.7.0
-ipython ==8.14.0
-mysql-connector-python ==8.1.0
+pandas 
+plotly 
+altair 
+mysql-connector 
+python-dotenv
+ipython 
+mysql-connector-python 
