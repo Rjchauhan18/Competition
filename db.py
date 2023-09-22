@@ -1,7 +1,7 @@
 import os
 from deta import Deta
 # import mysql.connector 
-import datetime as dt
+
 import pandas as pd
 from dotenv import load_dotenv
 import datetime
